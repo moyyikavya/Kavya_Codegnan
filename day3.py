@@ -1,0 +1,20 @@
+print("day3 work")
+print("student total marks percentage")
+name=input("enter your name:")
+print(name)
+telugu=int(input("enter telugu marks:"))
+print(telugu)
+english=(int(input("enter your english marks:")))
+print(english)
+math=(int(input("enter your mathmetics marks:")))
+print(math)
+science=(int(input("enter your science marks:")))
+print(science)
+social=(int(input("enter your social marks:")))
+print(social)
+sum_total_mark=100+100+100+100+100
+sum_obtained_marks=telugu+english+math+science+social
+print("marks of all subjects:",sum_total_mark)            
+print("the marks you got:",sum_obtained_marks)        
+percentage=(sum_obtained_marks/sum_total_mark)*100
+print("total percentage of your marks:",percentage)

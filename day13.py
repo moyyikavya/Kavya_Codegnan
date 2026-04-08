@@ -1,9 +1,10 @@
-'''#
+#
 num=int(input("enter the limit   :"))
 for j in range(num):
     for i in range(1,j):
-        print("i",end = " ")
+        print("*",end = " ")
     print()
+    '''
 #--------------------------------------------------------------------------------------------->   
 #square
 num=int(input("enter the limit   :"))
